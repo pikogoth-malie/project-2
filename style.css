@@ -11,12 +11,10 @@ body {
     padding: 10px;
 }
 
-.gothrough {
+.gothrough,
+ul {
+    list-style: none;
     display: flex;
     flex-direction: row;
     padding: 0;
-}
-
-ul {
-    list-style: none;
 }
