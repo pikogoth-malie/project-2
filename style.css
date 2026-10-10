@@ -16,5 +16,11 @@ ul {
     list-style: none;
     display: flex;
     flex-direction: row;
+    color: grey;
     padding: 0;
+}
+
+.gothrough,
+li {
+    padding-left: 20px;
 }
