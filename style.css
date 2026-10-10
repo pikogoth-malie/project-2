@@ -8,7 +8,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 10px;
 }
 
 .gothrough {
@@ -17,6 +17,6 @@ body {
     padding: 0;
 }
 
-.ul {
+ul {
     list-style: none;
 }
