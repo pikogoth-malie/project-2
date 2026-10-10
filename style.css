@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.gothrough {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.ul {
+    list-style: none;
+}
