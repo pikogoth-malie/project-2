@@ -81,3 +81,37 @@ p {
     font-weight: 400;
     color: Orange;
 }
+
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.items img{
+    width: 300px;
+    height: 370px;
+    box-shadow: inset;
+}
+
+.items .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.items .text a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.items .text span{
+    text-align: center;
+    color: red;
+    font-weight: 300;
+    font-size: 25px;
+}
+
