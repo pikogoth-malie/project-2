@@ -1,8 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caesar+Dressing&family=Clarity+City:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
     background-color: white;
-    font-family: 'Open Sans';
+    font-family: "Clarity City";
+    font-weight: 600;
 }
 
 .header {
@@ -58,4 +62,22 @@ p {
     font-size: 20px;
     cursor: pointer;
     text-align: center;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.shop-title {
+    font-size: 90px;
+    text-align: center;
+    padding: 8px;
+    margin: 16px;
+}
+
+.highlight {
+    font-family: "Caesar Dressing";
+    font-weight: 400;
+    color: Orange;
 }
