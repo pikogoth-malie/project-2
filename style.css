@@ -76,7 +76,7 @@ p {
     margin: 16px;
 }
 
-.highlight {
+.highlight-1 {
     font-family: "Caesar Dressing";
     font-weight: 400;
     color: Orange;
@@ -115,3 +115,13 @@ p {
     font-size: 25px;
 }
 
+.ad {
+    display: flex;
+    flex-direction: row;
+}
+
+.ad .intro {
+    display: flex;
+    align-items: center;
+    font-size: 90px;
+}
