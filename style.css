@@ -22,7 +22,7 @@ ul {
     display: flex;
     flex-direction: row;
     color: grey;
-    padding: 0;
+    margin: 10px;
 }
 
 .gothrough,
@@ -87,12 +87,12 @@ p {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 150px;
 }
 
 .items img{
     width: 300px;
-    height: 370px;
+    height: 340px;
     box-shadow: inset;
 }
 
