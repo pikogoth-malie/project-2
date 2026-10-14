@@ -18,6 +18,15 @@ body {
     padding: 0px;
 }
 
+.logo {
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    cursor: pointer;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
 .gothrough,
 ul {
     list-style: none;
