@@ -163,3 +163,8 @@ p {
     font-family: "Doto";
     font-weight: 700;
 }
+
+.container-3 {
+    display: flex;
+    background-color: grey;
+}
