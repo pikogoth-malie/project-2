@@ -197,6 +197,7 @@ button {
     text-align: center;
     font-family: sans-serif;
     font-weight: 400;
+    transition: background-color 0.2s ease;
 }
 
 .feed-back {
@@ -211,4 +212,48 @@ button {
     font-size: 20px;
     margin-bottom: 10px;
 }
+
+.feed-back-group {
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 5px;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 8px;
+    color: #555;
+}
+
+.feed-back-group input
+.feed-back-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+.feed-back-group textarea {
+    resize: vertical;
+}
+
+.feed-back-group input::placeholder
+.feed-back-group input::placeholder {
+    color: blueviolet;
+}
+
+.Sbt-button {
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.sbt-button:hover,
+.sign-in-button:hover {
+    background-color: #2a7fb3;
+}
+
 
