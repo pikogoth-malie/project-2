@@ -41,14 +41,16 @@ li {
 
 .info {
     display: flex;
+    flex-shrink: 1;
     flex-direction: column;
     align-items: center;
 }
 
 p {
+    display: flex;
+    flex: auto;
     padding: 16px;
     text-align: center;
-    width: 1200px;
 }
 
 .toggle {
@@ -86,10 +88,10 @@ p {
 .items {
     display: flex;
     flex-direction: row;
+    flex: auto;
     padding: 20px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 150px;
 }
 
 .items img{
