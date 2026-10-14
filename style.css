@@ -124,13 +124,24 @@ p {
     font-size: 25px;
 }
 
+.item-1,
+.item-2,
+.item-3,
+.item-4 {
+    padding: 20px;
+    background-color: white;
+    border: 2px;
+    border-radius: 20px;
+}
+
 .ad {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     background-color: royalblue;
-    padding: 70px 70px 70px 20px;
+    padding: 30px;
+    margin-top: 20px;
 }
 
 .ad .intro {
@@ -145,18 +156,9 @@ p {
     margin-top: 5px;
 }
 
-.item-1,
-.item-2,
-.item-3,
-.item-4 {
-    padding: 20px;
-    background-color: white;
-    border: 2px;
-    border-radius: 20px;
-}
-
 .highlight-2 {
-    font-size: 90px;
+    color: rgb(37255, 212, 22);
+    font-size: 135px;
     font-family: "Doto";
     font-weight: 700;
 }
