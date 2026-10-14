@@ -84,6 +84,12 @@ p {
     flex-direction: column;
 }
 
+.shop {
+    background-color: lightgray;
+    padding: 30px;
+    margin-top: 5px;
+}
+
 .shop-title {
     font-size: 90px;
     text-align: center;
@@ -144,7 +150,6 @@ p {
     border-radius: 20px;
 }
 
-
 .ad {
     display: flex;
     flex-direction: row;
@@ -161,29 +166,11 @@ p {
     font-size: 60px;
 }
 
-.shop {
-    background-color: lightgray;
-    padding: 30px;
-    margin-top: 5px;
-}
-
 .highlight-2 {
     color: rgb(37255, 212, 22);
     font-size: 135px;
     font-family: "Doto";
     font-weight: 700;
-}
-
-.container-3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    border-top: 2px solid #999;
-    border-left: 80px;
-    border-right: 80px;
-    margin-top: 70px;
-    padding: 20px;
 }
 
 .sign-in {
@@ -219,6 +206,18 @@ button {
     font-family: sans-serif;
     font-weight: 400;
     transition: background-color 0.2s ease;
+}
+
+.container-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #999;
+    border-left: 80px;
+    border-right: 80px;
+    margin-top: 70px;
+    padding: 20px;
 }
 
 .feed-back {
