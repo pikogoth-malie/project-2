@@ -32,6 +32,7 @@ li {
 
 .container-1 {
     display: flex;
+    flex-direction: row;
     background-color: black;
     justify-content: space-between;
     align-items: center;
