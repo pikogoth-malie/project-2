@@ -30,6 +30,7 @@ ul {
 .gothrough,
 li {
     padding-left: 20px;
+    cursor: pointer;
 }
 
 .container-1 {
@@ -254,6 +255,19 @@ label {
 .sbt-button:hover,
 .sign-in-button:hover {
     background-color: #2a7fb3;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.home a {
+    text-decoration: none;
+    color: gray;
+    cursor: pointer;
 }
 
 
