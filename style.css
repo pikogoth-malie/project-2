@@ -218,7 +218,7 @@ p {
     font-size: 40px;
 }
 
-button {
+/* button {
     display: block;
     width: 150px;
     height: fit-content;
@@ -233,7 +233,7 @@ button {
     font-family: sans-serif;
     font-weight: 400;
     transition: background-color 0.2s ease;
-}
+} */
 
 .container-3 {
     display: flex;
