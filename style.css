@@ -6,7 +6,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: lightgray;
     font-family: "Clarity City";
     font-weight: 600;
 }
@@ -19,6 +19,7 @@ body {
 }
 
 .logo {
+    margin-left: 2px;
     transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     cursor: pointer;
 }
@@ -32,12 +33,13 @@ ul {
     list-style: none;
     display: flex;
     flex-direction: row;
-    color: grey;
+    color: red;
     margin: 10px;
 }
 
 .gothrough,
 li {
+    font-size: 19px;
     padding-left: 20px;
     cursor: pointer;
 }
@@ -49,6 +51,7 @@ li {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    border-radius: 16px;
 }
 
 .info {
@@ -79,9 +82,10 @@ p {
     text-align: center;
 }
 
-.container-2{
+.container-2 {
     display: flex;
     flex-direction: column;
+    border-radius: 20px;
 }
 
 .shop {
@@ -112,6 +116,14 @@ p {
     align-items: center;
 }
 
+.box {
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
 .items img{
     width: 300px;
     height: 340px;
@@ -140,10 +152,10 @@ p {
     font-size: 25px;
 }
 
-.item-1,
-.item-2,
-.item-3,
-.item-4 {
+#item-1,
+#item-2,
+#item-3,
+#item-4 {
     padding: 20px;
     background-color: white;
     border: 2px;
@@ -165,6 +177,7 @@ p {
     align-items: center;
     background-color: royalblue;
     padding: 30px;
+    border: 2px solid black;
     border-radius: 16px;
 }
 
@@ -188,6 +201,8 @@ p {
     flex-grow: 1;
     font-size: 150px;
     align-self: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .sign-in {
@@ -197,6 +212,7 @@ p {
     align-items: center;
     background-color:rgb(37255, 212, 22);
     padding: 20px;
+    border: 2px solid black;
     border-radius: 16px;
 }
 
@@ -239,7 +255,7 @@ p {
     border-top: 2px solid #999;
     border-left: 80px;
     border-right: 80px;
-    margin-top: 70px;
+    margin-top: 50px;
     padding: 20px;
 }
 
@@ -290,7 +306,7 @@ label {
 }
 
 .sbt-button {
-
+    font-size: 14px;
     padding: 10px 30px;
     cursor: pointer;
     background-color: lightblue;
@@ -311,8 +327,9 @@ label {
 }
 
 .home a {
+    font-size: 19px;
     text-decoration: none;
-    color: gray;
+    color: blue;
     cursor: pointer;
 }
 
