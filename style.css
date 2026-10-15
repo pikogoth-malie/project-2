@@ -202,11 +202,12 @@ p {
     border-radius: 16px;
 }
 
-.sign-in-title {
+.sign-in-title,
+.sign-in-title-small {
     font-family: "Doto";
     font-weight: 700;
     font-size: 120px;
-    color: rgb(250, 58, 58);
+    color: red;
     text-align: center;
     margin-bottom: 10px;
 }
