@@ -154,7 +154,6 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     margin-top: 10px;
 }
 
@@ -187,14 +186,13 @@ p {
     display: flex;
     flex-grow: 1;
     font-size: 150px;
-
+    align-self: center;
 }
 
 .sign-in {
     display: flex;
     flex-grow: 1/2;
     flex-direction: column;
-    width: fit-content;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(255, 200, 11);
