@@ -177,9 +177,10 @@ p {
 
 .highlight-2 {
     color: rgb(37255, 212, 22);
-    font-size: 125px;
+    font-size: 130px;
     font-family: "Doto";
     font-weight: 700;
+    cursor: pointer;
 }
 
 .ad-div {
@@ -193,46 +194,42 @@ p {
     display: flex;
     flex-grow: 1/2;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    background-color: rgb(255, 200, 11);
-    padding: 20px 20px 20px 10px;
-    gap: 16px;
-    border: none;
+    background-color:rgb(37255, 212, 22);
+    padding: 20px;
     border-radius: 16px;
 }
 
-.sign-in-title,
-.sign-in-title-small {
+.title-header,
+.title-text {
     font-family: "Doto";
-    font-weight: 700;
-    font-size: 120px;
+    font-weight: 800;
     color: red;
-    text-align: center;
-    margin-bottom: 10px;
 }
 
-.sign-in-small {
+.title-header {
+    font-size: 130px;
+    text-decoration: none;
+    background-image: url(img/magnific__other-a-single-thin-black-handdrawn-horizontal-ova__93568.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0px;
+    margin-bottom: 16px;
+    color: #2a7fb3;
+}    
+
+.title-text {
+    font-size: 90px;
     text-align: center;
-    font-size: 40px;
+    margin-bottom: 20px;
+    color: red;
 }
 
-/* button {
-    display: block;
-    width: 150px;
-    height: fit-content;
-    border: none;
-    border-radius: 100px;
-    background-color: rgb(93, 163, 243);
-    color: black;
-    padding: 14px;
+.p-text {
     font-size: 30px;
-    cursor: pointer;
     text-align: center;
-    font-family: sans-serif;
-    font-weight: 400;
-    transition: background-color 0.2s ease;
-} */
+}
 
 .container-3 {
     display: flex;
@@ -292,14 +289,17 @@ label {
     color: blueviolet;
 }
 
-.Sbt-button {
+.sbt-button {
+
     padding: 10px 30px;
     cursor: pointer;
+    background-color: lightblue;
+    border: none;
+    border-radius: 20px;
     transition: background-color 0.2s ease;
 }
 
-.sbt-button:hover,
-.sign-in-button:hover {
+.sbt-button:hover {
     background-color: #2a7fb3;
 }
 
