@@ -55,6 +55,10 @@ li {
 }
 
 .info {
+    background-image: url(img/istockphoto-1979991098-612x612.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display: flex;
     flex-shrink: 1;
     flex-direction: column;
@@ -114,6 +118,7 @@ p {
     padding: 20px;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .box {
@@ -160,6 +165,7 @@ p {
     background-color: white;
     border: 2px;
     border-radius: 20px;
+    margin-top: 10px;
 }
 
 .sub-cont {
@@ -167,6 +173,7 @@ p {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 10px;
+    flex-wrap: wrap;
 }
 
 .ad {
@@ -196,14 +203,6 @@ p {
     cursor: pointer;
 }
 
-.ad-div {
-    display: flex;
-    flex-grow: 1;
-    font-size: 150px;
-    align-self: center;
-    padding-left: 10px;
-    padding-right: 10px;
-}
 
 .sign-in {
     display: flex;
