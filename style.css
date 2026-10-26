@@ -287,6 +287,49 @@ label {
     background-color: #2a7fb3;
 }
 
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 90px 0px;
+    border-radius: 16px;
+    margin-top: 10px;
+    background-color: black;
+}
+
+.details {
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}
+
+.details ul,
+.address ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.details li {
+    padding-bottom: 20px;
+} 
+
+
+.address {
+    text-align: left;
+}
+
+.address .address-t {
+    font-size: 22px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.address .address-p {
+    font-size: 15px;
+    color: lightgrey;
+}
+
 
 
 
