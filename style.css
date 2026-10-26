@@ -28,8 +28,7 @@ body {
     transform: scale(1.05);
 }
 
-.gothrough,
-ul {
+.gothrough ul {
     display: flex;
     align-items: center;
     list-style: none;
@@ -39,8 +38,7 @@ ul {
     margin: 10px;
 }
 
-.gothrough,
-li {
+.gothrough li {
     font-size: 19px;
     padding-left: 20px;
 }
@@ -54,7 +52,7 @@ li {
     border-radius: 20px
 }
 
-button {
+.link-button{
     cursor: pointer;
 }
 
@@ -289,18 +287,6 @@ label {
     background-color: #2a7fb3;
 }
 
-.footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-}
 
-.home a {
-    font-size: 19px;
-    text-decoration: none;
-    color: blue;
-    cursor: pointer;
-}
 
 
